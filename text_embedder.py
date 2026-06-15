@@ -12,7 +12,6 @@ if not os.path.exists(passage_path):
 with open(passage_path, "r", encoding="utf-8") as file:
     long_text = file.read()
 
-
 print("~" * 60)
 print(f"File has been loaded. Current character count is {len(long_text)}")
 
